@@ -54,11 +54,9 @@ Our annotation file is in JSON Line (`.jsonl`) format, where each line is JSON l
     -   [**Tran Nguyen Bao Long**](https://github.com/TNBL265)
     -   [**Qiao Yingjie**](https://github.com/YingjieQiao)
     -   [**Huang He**](https://github.com/MarkHershey)
-    -   [**Xu Li**](https://github.com/xuliwalker)
     -   **Xun Long Ng**
     -   **Koh Kai Ting**
     -   **Christabel Dorothy**
--   This work is supported by SUTD Projects `PIE-SGP-Al2020-02` and `SRG-ISTD-2020-153`.
 
 ## Contact
 
