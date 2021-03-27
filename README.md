@@ -1,4 +1,4 @@
-# SUTD-TrafficQA
+# TrafficQA
 
 A Video Question Answering Benchmark
 
@@ -6,7 +6,7 @@ A Video Question Answering Benchmark
 
 ## Paper
 
-Our paper at **CVPR 2021**, _SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events_, is available at:
+Our paper at **CVPR 2021**, _TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events_, is available at:
 
 -   [CVF Open Access]() (coming soon)
 -   [arXiv]() (coming soon)
