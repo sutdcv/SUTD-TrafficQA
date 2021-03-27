@@ -15,9 +15,9 @@ Our paper at **CVPR 2021**, _TrafficQA: A Question Answering Benchmark and an Ef
 
 #### Annotations
 
--   Download Coming soon.
+-   [Download] (coming soon)
 
-Our annotation file is in JSON Line (`.jsonl`) format, where each line is JSON list.
+Our annotation is in JSON Lines (`.jsonl`) text file format where each line is a JSON list.
 
 | Idx (Key) |    Header    | Type  |                         Description                         |
 | :-------: | :----------: | :---: | :---------------------------------------------------------: |
