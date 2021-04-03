@@ -47,14 +47,12 @@ Our annotation is in JSON Lines (`.jsonl`) text file format where each line is a
 
 ## Citation
 
-```tex
-@misc{xu2021trafficqa,
-      title={TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events},
-      author={Li Xu and He Huang and Jun Liu},
-      year={2021},
-      eprint={2103.15538},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+```bibtex
+@inproceedings{xu2021sutd,
+  title={SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events},
+  author={Xu, Li and Huang, He and Liu, Jun},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2021}
 }
 ```
 
