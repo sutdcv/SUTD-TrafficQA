@@ -29,8 +29,8 @@ const FeedbackModal = (props) => {
                 
                 <div>
                     <b className="text-success">You have successfully requested SUTD-TrafficQA dataset, 
-                    access link will be sent to your email address soon!</b>
-                    <p className="fst-italic fw-regular mt-2">Please send us an email if we did not get back to you in two days.</p>
+                    an access link will be sent to your email address when available!</b>
+                    {/* <p className="fst-italic fw-regular mt-2">Please send us an email if we did not get back to you in two days.</p> */}
                 </div>
                 : 
                 <div>
