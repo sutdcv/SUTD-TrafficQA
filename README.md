@@ -14,7 +14,10 @@ Our paper at **CVPR 2021**, _SUTD-TrafficQA: A Question Answering Benchmark and 
 
 ## Dataset
 
-For more information about the dataset, please visit our website: [sutdcv.github.io/SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/)
+-   Annotation Example [examples/annotation_sample.jsonl](examples/annotation_sample.jsonl)
+-   Jsonl Reader Example [examples/jsonl_reader.py](examples/jsonl_reader.py)
+-   Evaluation Submission Example [examples/submission_example.csv](examples/submission_example.csv)
+-   [Download](https://sutdcv.github.io/SUTD-TrafficQA)
 
 ## Citation
 
