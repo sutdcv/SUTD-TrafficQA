@@ -18,7 +18,7 @@ const SectionDatasetDetails = () => {
                     <h3 className="my-3">Annotations (Text QAs)</h3>
                     <p>Our annotation is in JSON Lines (<code>.jsonl</code>) text-file format where each line is a JSON list. </p>
                     <p>Each list contains the following items:</p>
-                    <table className="table table-dark table-striped table-hover">
+                    <table className="table  table-striped table-hover">
                         <thead>
                         <tr>
                         <th align="center" className="text-center">List Idx</th>
@@ -58,38 +58,39 @@ const SectionDatasetDetails = () => {
                         <td align="center"><code>str</code></td>
                         <td align="center">Question</td>
                         </tr>
-                        <tr>
+                        {/*  q_type is removed from R3 release */}
+                        {/* <tr>
                         <td align="center"><code>5</code></td>
                         <td align="center">q_type</td>
                         <td align="center"><code>str</code></td>
                         <td align="center">Question Type</td>
-                        </tr>
+                        </tr> */}
                         <tr>
-                        <td align="center"><code>6</code></td>
+                        <td align="center"><code>5</code></td>
                         <td align="center">option0</td>
                         <td align="center"><code>str</code></td>
                         <td align="center">Option (index <code>0</code>)</td>
                         </tr>
                         <tr>
-                        <td align="center"><code>7</code></td>
+                        <td align="center"><code>6</code></td>
                         <td align="center">option1</td>
                         <td align="center"><code>str</code></td>
                         <td align="center">Option (index <code>1</code>)</td>
                         </tr>
                         <tr>
-                        <td align="center"><code>8</code></td>
+                        <td align="center"><code>7</code></td>
                         <td align="center">option2</td>
                         <td align="center"><code>str</code></td>
                         <td align="center">Option (index <code>2</code>)</td>
                         </tr>
                         <tr>
-                        <td align="center"><code>9</code></td>
+                        <td align="center"><code>8</code></td>
                         <td align="center">option3</td>
                         <td align="center"><code>str</code></td>
                         <td align="center">Option (index <code>3</code>)</td>
                         </tr>
                         <tr>
-                        <td align="center"><code>10</code></td>
+                        <td align="center"><code>9</code></td>
                         <td align="center">answer</td>
                         <td align="center"><code>int</code></td>
                         <td align="center">The index (<code>0</code>/<code>1</code>/<code>2</code>/<code>3</code>) of the correct answer</td>

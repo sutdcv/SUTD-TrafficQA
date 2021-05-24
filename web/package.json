@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "homepage": ".",
+  "homepage": "https://sutdcv.github.io/SUTD-TrafficQA",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
