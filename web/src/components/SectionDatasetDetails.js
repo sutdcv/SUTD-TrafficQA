@@ -107,23 +107,34 @@ const SectionDatasetDetails = () => {
                     <p>Video Features are in HDF5 (<code>.h5</code>) format.</p>
                     <ol>
                         <li>Appearance Feature</li>
-                            <ul><li>
-                                extracted using
-                                <code> MobileNetV2</code>, 
-                                <code> ResNet-101</code>, and 
-                                <code> ResNet-18</code>.
-                            </li></ul>
+                            <ul>
+                                <li>
+                                    <code>trafficqa_resnet18_feat.h5</code> (2.6 GB) extracted using <code> ResNet-18</code>.
+                                </li>
+                                <li>
+                                    <code>trafficqa_resnet101_feat.h5</code> (10.6 GB) extracted using <code> ResNet-101</code>.
+                                </li>
+                                <li>
+                                    <code>trafficqa_mobilenetv2_feat.h5</code> (6.6 GB) extracted using <code> MobileNetV2</code>.
+                                </li>
+                                
+                            </ul>
 
                         <li>Motion Feature</li>
-                            <ul><li>
-                                extracted using
-                                <code> ResNeXt101</code>.
-                            </li></ul>
+                            <ul>
+                                <li>
+                                    <code>trafficqa_motion_feat.h5</code> (668.2 MB) extracted using <code> ResNeXt101</code>.
+                                </li>
+                            </ul>
                     </ol>
 
                     <h3 className="my-3">Raw Videos</h3>
-                    <p>All videos are in MP4 (<code>.mp4</code>) format with variable lengths.</p>
-
+                    <p>All 10,080 raw videos are <code>H.265</code> encoded in MP4 (<code>.mp4</code>) with variable lengths.</p>
+                    <ul>
+                        <li>
+                            <code>raw_videos.zip</code> (12.8 GB).
+                        </li>
+                    </ul>
 
                     <h3 className="my-3">Download Dataset</h3>
                     <DownloadButton text={"Request Download"} href={"#download"} disabled={false} openNewTab={true}/>
