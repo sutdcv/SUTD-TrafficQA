@@ -7,6 +7,7 @@ import {
 
 import { useState } from 'react'
 import PageHome from "./PageHome"
+import PageExplore from "./PageExplore"
 import PageDownload from "./PageDownload"
 import PageLeaderboard from "./PageLeaderboard"
 import PageAbout from "./PageAbout"
@@ -15,8 +16,9 @@ import PageAbout from "./PageAbout"
 const Navbar = () => {
     const pageRoot = ""
 
-    const initialState = {
+    const allFalseState = {
         "Home": false,
+        "Explore": false,
         "Download": false,
         "Leaderboard": false,
         "About": false,
@@ -24,6 +26,7 @@ const Navbar = () => {
 
     const [activePage, setActivePage] = useState({
         "Home": true,
+        "Explore": false,
         "Download": false,
         "Leaderboard": false,
         "About": false,
@@ -31,12 +34,12 @@ const Navbar = () => {
 
     const handleNavOnClick = (e) => {
         // console.log(e.target.name)
-        setActivePage({...initialState, [e.target.name]:true})
+        setActivePage({...allFalseState, [e.target.name]:true})
     }
 
     return (
         <Router>
-            <nav className="navbar navbar-expand-sm navbar-dark bg-dark" style={{minWidth:400}}> 
+            <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" style={{minWidth:400}}> 
                 <div className="container">
                     <Link className={activePage.Home? "navbar-brand active" : "navbar-brand"} name="Home" onClick={handleNavOnClick} to={pageRoot + "/"}>SUTD-TrafficQA</Link>
 
@@ -50,10 +53,13 @@ const Navbar = () => {
                                 <Link className={activePage.Home? "nav-link active" : "nav-link"} name="Home" onClick={handleNavOnClick} to={pageRoot + "/"}>Home</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className={activePage.Explore? "nav-link active" : "nav-link"} name="Explore" onClick={handleNavOnClick} to={pageRoot + "/explore"}>Explore</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className={activePage.Download? "nav-link active" : "nav-link"} name="Download" onClick={handleNavOnClick} to={pageRoot + "/download"}>Download</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={activePage.Leaderboard? "nav-link active" : "nav-link"} name="Leaderboard" onClick={handleNavOnClick} to={pageRoot + "/leaderboard"}>Leaderboard</Link>
+                                <Link className={activePage.Leaderboard? "nav-link active" : "nav-link disabled"} name="Leaderboard" onClick={handleNavOnClick} to={pageRoot + "/leaderboard"}>Leaderboard</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={activePage.About? "nav-link active" : "nav-link"} name="About" onClick={handleNavOnClick} to={pageRoot + "/about"}>About</Link>
@@ -64,6 +70,7 @@ const Navbar = () => {
             </nav>
 
             <Switch>
+                <Route path={pageRoot + "/explore"} component={PageExplore} />
                 <Route path={pageRoot + "/download"} component={PageDownload} />
                 <Route path={pageRoot + "/leaderboard"} component={PageLeaderboard} />
                 <Route path={pageRoot + "/about"} component={PageAbout} />

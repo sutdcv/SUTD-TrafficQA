@@ -1,6 +1,5 @@
 import titleImg from "../imgs/titleImage.png"
 import PaperBlock from "./PaperBlock"
-import SectionDatasetDetails from "./SectionDatasetDetails"
 
 const PageHome = () => {
     return (
@@ -21,7 +20,7 @@ const PageHome = () => {
             <div className="pt-5 container-sm">
                 <h3 className="m-3">Paper</h3> 
             </div>
-            <div className="pb-5 container-sm d-flex flex-column align-items-center">   
+            <div className="container-sm d-flex flex-column align-items-center">   
                 <PaperBlock 
                 paperTitle={"SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events"}
                 authors={"Li Xu, He Huang, Jun Liu"}
@@ -37,15 +36,8 @@ const PageHome = () => {
                 />
             </div>
 
-            <hr className="mx-5 mb-2"></hr>
-
-            <SectionDatasetDetails />
-
-
-
-            
-            
-
+            {/* <hr className="mx-5 mb-2"></hr> */}
+            {/* <SectionDatasetDetails /> */}
         </div>
     )
 }
