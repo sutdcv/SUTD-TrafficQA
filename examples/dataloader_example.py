@@ -1,4 +1,4 @@
-# Acknoledgement: this code is largely referenced from @thaolmk54 under Apache License 2.0
+# Acknowledgement: this code is largely referenced from @thaolmk54 under Apache License 2.0
 # Ref: https://github.com/thaolmk54/hcrn-videoqa/blob/master/DataLoader.py
 
 
