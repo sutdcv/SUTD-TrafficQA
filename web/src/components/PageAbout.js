@@ -14,11 +14,11 @@ const PageAbout = () => {
                 <SectionTeam />
                 <h2 className={"container my-5"}>Contact Us</h2>
                 
-                <div className={"container my-3 mx-3 py-3 px-3 jumbotron shadow-sm bg-light"}>
-                    <p className={"container fst-italic fw-normal"}>Feel free to contact us if you have any questions!</p>
-                    <ul>
-                        <li><code>li_xu [AT] mymail [DOT] sutd [DOT] edu [DOT] sg</code></li>
-                        <li><code>he_huang [AT] mymail [DOT] sutd [DOT] edu [DOT] sg</code></li>
+                <div className={"container my-3 mx-3 px-3 jumbotron"}>
+                    {/* <p className={"container fst-italic fw-normal"}>Feel free to contact us if you have any questions!</p> */}
+                    <ul className="list-group shadow-sm">
+                        <li className="list-group-item list-group-item-action"><code className="text-dark">li_xu [AT] mymail.sutd.edu.sg</code></li>
+                        <li className="list-group-item list-group-item-action"><code className="text-dark">he_huang [AT] mymail.sutd.edu.sg</code></li>
                     </ul>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import titleImg from "../imgs/titleImage.png"
+import exampleImg from "../imgs/featured.png"
 import PaperBlock from "./PaperBlock"
 
 const PageHome = () => {
@@ -6,8 +7,8 @@ const PageHome = () => {
         <div>
             <div className="jumbotron jumbotron-fluid py-5 bg-dark">
                 
-                <div className={"container pb-5"}>
-                    <img src={titleImg} style={{maxWidth: "100%"}} alt="SUTD-TrafficQA" />
+                <div className={"container pb-5 text-center"}>
+                    <img src={titleImg} style={{maxWidth: "90%"}} alt="SUTD-TrafficQA" />
                 </div>
                 <div className="container">
                     <h1 className="display-3 text-white text-center">SUTD-TrafficQA Dataset</h1>
@@ -35,9 +36,13 @@ const PageHome = () => {
                 }`}
                 />
             </div>
+            <div className="pt-4 container-sm">
+                <h3 className="m-3">Example</h3> 
+            </div>
+            <div className="pt-2 container-sm text-center">
+                <img src={exampleImg} style={{maxWidth: "90%"}} />
+            </div>
 
-            {/* <hr className="mx-5 mb-2"></hr> */}
-            {/* <SectionDatasetDetails /> */}
         </div>
     )
 }
