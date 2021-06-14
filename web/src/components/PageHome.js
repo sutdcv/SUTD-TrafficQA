@@ -26,13 +26,15 @@ const PageHome = () => {
                 paperTitle={"SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events"}
                 authors={"Li Xu, He Huang, Jun Liu"}
                 venue={"CVPR 2021"}
-                paperLink={"https://arxiv.org/abs/2103.15538"}
+                paperLink={"https://openaccess.thecvf.com/content/CVPR2021/html/Xu_SUTD-TrafficQA_A_Question_Answering_Benchmark_and_an_Efficient_Network_for_CVPR_2021_paper.html"}
                 codeLink={"https://github.com/SUTDCV/SUTD-TrafficQA"}
-                cite={`@inproceedings{xu2021sutd,
-                    title={SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events},
-                    author={Xu, Li and Huang, He and Liu, Jun},
-                    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-                    year={2021}
+                cite={`@InProceedings{Xu_2021_CVPR,
+                    author    = {Xu, Li and Huang, He and Liu, Jun},
+                    title     = {SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning Over Traffic Events},
+                    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+                    month     = {June},
+                    year      = {2021},
+                    pages     = {9878-9888}
                 }`}
                 />
             </div>
