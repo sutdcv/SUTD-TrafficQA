@@ -1,16 +1,9 @@
-import exampleImg from "../imgs/featured.png"
 import DownloadButton from "./DownloadButton"
 
 const SectionDatasetDetails = () => {
     return (
         <div>
             <div className={"container my-4 py-3 px-3 jumbotron"} style={{minWidth: 400}}>
-                {/* <div className={"container pb-5"}>
-                    <h3 className="mb-4">Example</h3>
-                    <div className={"container"}>
-                        <img src={exampleImg} alt="exampleImg" style={{maxWidth: "100%"}} />
-                    </div>
-                </div> */}
                 <div className={"container d-flex flex-column align-items-start"}>
 
                     <h3 className="my-3">Annotations (Text QAs)</h3>
@@ -178,7 +171,7 @@ const SectionDatasetDetails = () => {
                     </ul>
 
                     <h3 className="my-3">Download Dataset</h3>
-                    <DownloadButton text={"Request Download"} href={"#download"} disabled={false} openNewTab={true}/>
+                    <DownloadButton text={"Request Download"} href={"#download"} disabled={false} openNewTab={false}/>
 
                 </div>
                 

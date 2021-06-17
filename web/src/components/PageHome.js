@@ -42,7 +42,7 @@ const PageHome = () => {
                 <h3 className="m-3">Example</h3> 
             </div>
             <div className="pt-2 container-sm text-center">
-                <img src={exampleImg} style={{maxWidth: "90%"}} />
+                <img src={exampleImg} alt="exampleImg" style={{maxWidth: "90%"}} />
             </div>
 
         </div>

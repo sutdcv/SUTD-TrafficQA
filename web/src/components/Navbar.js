@@ -25,7 +25,8 @@ const Navbar = () => {
     }
 
     const [activePage, setActivePage] = useState({
-        "Home": true,
+        // "Home": true,
+        "Home": false,
         "Explore": false,
         "Download": false,
         "Leaderboard": false,
@@ -34,7 +35,8 @@ const Navbar = () => {
 
     const handleNavOnClick = (e) => {
         // console.log(e.target.name)
-        setActivePage({...allFalseState, [e.target.name]:true})
+        // setActivePage({...allFalseState, [e.target.name]:true})
+        setActivePage({...allFalseState, [e.target.name]:false})
     }
 
     return (
@@ -59,7 +61,7 @@ const Navbar = () => {
                                 <Link className={activePage.Download? "nav-link active" : "nav-link"} name="Download" onClick={handleNavOnClick} to={pageRoot + "/download"}>Download</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={activePage.Leaderboard? "nav-link active" : "nav-link disabled"} name="Leaderboard" onClick={handleNavOnClick} to={pageRoot + "/leaderboard"}>Leaderboard</Link>
+                                <Link className={activePage.Leaderboard? "nav-link active" : "nav-link"} name="Leaderboard" onClick={handleNavOnClick} to={pageRoot + "/leaderboard"}>Leaderboard</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={activePage.About? "nav-link active" : "nav-link"} name="About" onClick={handleNavOnClick} to={pageRoot + "/about"}>About</Link>
