@@ -2,7 +2,14 @@
 
 A Video Question Answering Benchmark Based On Real-World Traffic Scenes
 
-![](imgs/featured.png)
+<!-- ![](imgs/featured.png) -->
+
+**News:**
+
+-   [*Jul 2021*] Dataset is publicly released. You could request to [download](https://sutdcv.github.io/SUTD-TrafficQA/#/download) it now.
+-   [*Jun 2021*] Dataset [usage details](https://sutdcv.github.io/SUTD-TrafficQA/#/explore) are available now.
+-   [*May 2021*] SUTD-TrafficQA [homepage](https://sutdcv.github.io/SUTD-TrafficQA) is live now.
+-   [*Feb 2021*] ~~Dataset private release, open for email request.~~
 
 ## Paper
 
@@ -16,7 +23,6 @@ Our paper at **CVPR 2021**, _SUTD-TrafficQA: A Question Answering Benchmark and 
 
 -   Annotation Example [examples/annotation_sample.jsonl](examples/annotation_sample.jsonl)
 -   Jsonl Reader Example [examples/jsonl_reader.py](examples/jsonl_reader.py)
--   Evaluation Submission Example [examples/submission_example.csv](examples/submission_example.csv)
 -   Appearance Feature Preprocessing [examples/preprocess_video_appearance_example.py](examples/preprocess_video_appearance_example.py)
 -   Motion Feature Preprocessing [examples/preprocess_video_motion_example.py](examples/preprocess_video_motion_example.py)
 -   Dataloader [examples/dataloader_example.py](examples/dataloader_example.py)

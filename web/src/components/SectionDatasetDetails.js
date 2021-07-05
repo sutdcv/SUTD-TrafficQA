@@ -171,6 +171,7 @@ const SectionDatasetDetails = () => {
                     </ul>
 
                     <h3 className="my-3">Download Dataset</h3>
+                    <p>Our dataset is completely open-source, you just need to fill in the request form and agree to our terms and conditions, download it now!</p>
                     <DownloadButton text={"Request Download"} href={"#download"} disabled={false} openNewTab={false}/>
 
                 </div>

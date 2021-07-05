@@ -13,7 +13,7 @@ import Select from '@material-ui/core/Select';
 
 import FeedbackModal from "./FeedbackModal"
 
-const API_ROOT = "https://dspower.markhh.com"
+const API_ROOT = "https://cvlab.sutd.markhh.com"
 
 const countryList = require('country-list');
 countryList.overwrite([{
@@ -108,14 +108,14 @@ const RequestForm = () => {
         role: true,
         email: true,
         gmail: false,
-        piTitle: true,
-        piFirstName: true,
-        piLastName: true,
-        piRole: true,
-        piEmail: true,
+        piTitle: false,
+        piFirstName: false,
+        piLastName: false,
+        piRole: false,
+        piEmail: false,
     })
 
-    const [hideSection, setHideSection] = useState(false)
+    const [hideSection, setHideSection] = useState(true)
 
     const handlePiToggle = e => {
         setHideSection(e.target.checked)
@@ -212,7 +212,7 @@ const RequestForm = () => {
         if (submissionState){
             setState(emptyState)
             setAcknowledgement(false)
-            setHideSection(false)
+            setHideSection(true)
             setSubmitting(false)
             setSubmissionState(false)
         }

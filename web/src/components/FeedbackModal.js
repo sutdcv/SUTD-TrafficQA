@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Button from '@material-ui/core/Button';
 import Modal from 'react-bootstrap/Modal'
-import DataSummary from "./DataSummary"
+// import DataSummary from "./DataSummary"
 
 const FeedbackModal = (props) => {
     return (
@@ -24,13 +24,13 @@ const FeedbackModal = (props) => {
             </Modal.Header>
 
             <Modal.Body>
-                <DataSummary data={props.data} />
+                {/* <DataSummary data={props.data} /> */}
                 {props.success ? 
                 
                 <div>
-                    <b className="text-success">You have successfully requested SUTD-TrafficQA dataset, 
-                    an access link will be sent to your email address when available!</b>
-                    {/* <p className="fst-italic fw-regular mt-2">Please send us an email if we did not get back to you in two days.</p> */}
+                    <b className="text-success">You have successfully requested SUTD-TrafficQA dataset, please use the link below to download the dataset!</b>
+                    <a href="https://bit.ly/SUTDTrafficQA-Google" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">Google Drive Link</a>
+                    <a href="https://bit.ly/SUTDTrafficQA-OneDrive" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">MS OneDrive Link</a>
                 </div>
                 : 
                 <div>
