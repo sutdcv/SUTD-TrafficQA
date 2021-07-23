@@ -9,7 +9,7 @@ import { useState } from 'react'
 import PageHome from "./PageHome"
 import PageExplore from "./PageExplore"
 import PageDownload from "./PageDownload"
-import PageLeaderboard from "./PageLeaderboard"
+// import PageLeaderboard from "./PageLeaderboard"
 import PageAbout from "./PageAbout"
 // about imports, ref: https://stackoverflow.com/a/41322914
 
@@ -61,9 +61,6 @@ const Navbar = () => {
                                 <Link className={activePage.Download? "nav-link active" : "nav-link"} name="Download" onClick={handleNavOnClick} to={pageRoot + "/download"}>Download</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={activePage.Leaderboard? "nav-link active" : "nav-link"} name="Leaderboard" onClick={handleNavOnClick} to={pageRoot + "/leaderboard"}>Leaderboard</Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link className={activePage.About? "nav-link active" : "nav-link"} name="About" onClick={handleNavOnClick} to={pageRoot + "/about"}>About</Link>
                             </li>
                         </ul>
@@ -74,7 +71,6 @@ const Navbar = () => {
             <Switch>
                 <Route path={pageRoot + "/explore"} component={PageExplore} />
                 <Route path={pageRoot + "/download"} component={PageDownload} />
-                <Route path={pageRoot + "/leaderboard"} component={PageLeaderboard} />
                 <Route path={pageRoot + "/about"} component={PageAbout} />
                 <Route path={pageRoot + "/"} component={PageHome} />
             </Switch>

@@ -575,13 +575,14 @@ const RequestForm = () => {
                 <div className={"mb-3"} style={{maxWidth: "90%"}}>
                     <p className={"alert alert-primary text-start"} style={{maxWidth:500}}>
                         The Singapore University of Technology and Design (SUTD) provides access 
-                        to the <em className={"fw-bold"}>SUTD-TrafficQA Dataset</em> (referred as "the Dataset" below) 
-                        under following conditions:
+                        to the <em className={"fw-bold"}>SUTD-TrafficQA Dataset</em> (referred to as "the Dataset" below) 
+                        under the following conditions:
                         <p></p>
                         <ul>
                             <li>The Dataset should only be used for non-commercial scientific research purposes. Any other use is strictly prohibited.</li>
-                            <li>The Dataset must NOT be provided or shared in part or full with any third-party individual or organization.</li>
-                            {/* <li>The Datasets must NOT be retained once the research project is concluded.</li> */}
+                            <li>Showing videos and images from the Dataset are only allowed in academic publications or presentations.</li>
+                            <li>The Dataset must NOT be shared or redistributed in part or full with any third-party individual or organization.</li>
+                            <li>The Dataset must NOT be altered to produce a new dataset without written consent from the authors.</li>
                         </ul>
                     </p>
                 </div>
