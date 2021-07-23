@@ -4,12 +4,12 @@ A Video Question Answering Benchmark Based On Real-World Traffic Scenes
 
 <!-- ![](imgs/featured.png) -->
 
-**News:**
+**Updates:**
 
--   [*Jul 2021*] Dataset is publicly released. You could request to [download](https://sutdcv.github.io/SUTD-TrafficQA/#/download) it now.
--   [*Jun 2021*] Dataset [usage details](https://sutdcv.github.io/SUTD-TrafficQA/#/explore) are available now.
--   [*May 2021*] SUTD-TrafficQA [homepage](https://sutdcv.github.io/SUTD-TrafficQA) is live now.
--   [*Feb 2021*] ~~Dataset private release, open for email request.~~
+-   [`Jul 2021`] The dataset is publicly released. You could [request download](https://sutdcv.github.io/SUTD-TrafficQA/#/download) now.
+-   [`Jun 2021`] The [dataset usage details](https://sutdcv.github.io/SUTD-TrafficQA/#/explore) are available now.
+-   [`May 2021`] The dataset [homepage](https://sutdcv.github.io/SUTD-TrafficQA) is live now.
+-   [`Feb 2021`] ~~The dataset private release, open for email request.~~
 
 ## Paper
 
