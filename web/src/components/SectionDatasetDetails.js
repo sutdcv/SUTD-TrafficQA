@@ -169,6 +169,7 @@ const SectionDatasetDetails = () => {
                             <code>raw_videos.zip</code> (12.8 GB).
                         </li>
                     </ul>
+                    <p>The license plates and faces in all videos have been blurred.</p>
 
                     <h3 className="my-3">Download Dataset</h3>
                     <p>Our dataset is completely open-source, you just need to fill in the request form and agree to our terms and conditions, download it now!</p>

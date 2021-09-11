@@ -6,18 +6,14 @@ A Video Question Answering Benchmark Based On Real-World Traffic Scenes
 
 **Updates:**
 
--   [`Jul 2021`] The dataset is publicly released. You could [request download](https://sutdcv.github.io/SUTD-TrafficQA/#/download) now.
--   [`Jun 2021`] The [dataset usage details](https://sutdcv.github.io/SUTD-TrafficQA/#/explore) are available now.
--   [`May 2021`] The dataset [homepage](https://sutdcv.github.io/SUTD-TrafficQA) is live now.
--   [`Feb 2021`] ~~The dataset private release, open for email request.~~
+-   `Jul 2021` The dataset is publicly released. You may [request download](https://sutdcv.github.io/SUTD-TrafficQA/#/download) now.
+-   `Jun 2021` The [dataset usage details](https://sutdcv.github.io/SUTD-TrafficQA/#/explore) are available now.
+-   `May 2021` The dataset [homepage](https://sutdcv.github.io/SUTD-TrafficQA) is live now.
+-   `Feb 2021` ~~The dataset available upon email request.~~
 
 ## Paper
 
-Our paper at **CVPR 2021**, _SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events_, is available at:
-
--   [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2021/html/Xu_SUTD-TrafficQA_A_Question_Answering_Benchmark_and_an_Efficient_Network_for_CVPR_2021_paper.html)
--   [arXiv:2103.15538](https://arxiv.org/abs/2103.15538)
--   [ResearchGate](https://www.researchgate.net/publication/350432154_TrafficQA_A_Question_Answering_Benchmark_and_an_Efficient_Network_for_Video_Reasoning_over_Traffic_Events)
+Our paper at **CVPR 2021**, _SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events_, is available at: [[CVF Open Access]](https://openaccess.thecvf.com/content/CVPR2021/html/Xu_SUTD-TrafficQA_A_Question_Answering_Benchmark_and_an_Efficient_Network_for_CVPR_2021_paper.html), [[arXiv:2103.15538]](https://arxiv.org/abs/2103.15538), and [[ResearchGate]](https://www.researchgate.net/publication/350432154_TrafficQA_A_Question_Answering_Benchmark_and_an_Efficient_Network_for_Video_Reasoning_over_Traffic_Events).
 
 ## Dataset
 
