@@ -1,15 +1,13 @@
 # [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/)
 
-A Video Question Answering Benchmark Based On Real-World Traffic Scenes
-
-<!-- ![](imgs/featured.png) -->
+A challenging Video Question Answering (VQA) Benchmark based on real-world traffic scenes.
 
 **Updates:**
 
 -   `Jul 2021` The dataset is publicly released. You may [request download](https://sutdcv.github.io/SUTD-TrafficQA/#/download) now.
 -   `Jun 2021` The [dataset usage details](https://sutdcv.github.io/SUTD-TrafficQA/#/explore) are available now.
 -   `May 2021` The dataset [homepage](https://sutdcv.github.io/SUTD-TrafficQA) is live now.
--   `Feb 2021` ~~The dataset available upon email request.~~
+-   `Feb 2021` ~~The dataset is available upon email request.~~
 
 ## Paper
 
