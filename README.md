@@ -27,7 +27,7 @@ Our paper at **CVPR 2021**, _SUTD-TrafficQA: A Question Answering Benchmark and 
 ```bibtex
 @InProceedings{Xu_2021_CVPR,
     author    = {Xu, Li and Huang, He and Liu, Jun},
-    title     = {SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning Over Traffic Events},
+    title     = {{SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning Over Traffic Events}},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2021},
