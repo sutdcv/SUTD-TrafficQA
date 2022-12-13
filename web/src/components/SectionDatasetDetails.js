@@ -49,39 +49,38 @@ const SectionDatasetDetails = () => {
                                 <td align="center"><code>str</code></td>
                                 <td align="left">Question</td>
                             </tr>
-                            {/*  q_type is removed from R3 release */}
-                            {/* <tr>
+                            <tr>
                                 <td align="center"><code>5</code></td>
                                 <td align="center">q_type</td>
                                 <td align="center"><code>str</code></td>
-                                <td align="center">Question Type</td>
-                            </tr> */}
+                                <td align="left">Question Type (<code>U</code>/<code>A</code>/<code>F</code>/<code>R</code>/<code>C</code>/<code>I</code>)</td>
+                            </tr>
                             <tr>
-                                <td align="center"><code>5</code></td>
+                                <td align="center"><code>6</code></td>
                                 <td align="center">option0</td>
                                 <td align="center"><code>str</code></td>
                                 <td align="left">Option (index <code>0</code>)</td>
                             </tr>
                             <tr>
-                                <td align="center"><code>6</code></td>
+                                <td align="center"><code>7</code></td>
                                 <td align="center">option1</td>
                                 <td align="center"><code>str</code></td>
                                 <td align="left">Option (index <code>1</code>)</td>
                             </tr>
                             <tr>
-                                <td align="center"><code>7</code></td>
+                                <td align="center"><code>8</code></td>
                                 <td align="center">option2</td>
                                 <td align="center"><code>str</code></td>
                                 <td align="left">Option (index <code>2</code>)</td>
                             </tr>
                             <tr>
-                                <td align="center"><code>8</code></td>
+                                <td align="center"><code>9</code></td>
                                 <td align="center">option3</td>
                                 <td align="center"><code>str</code></td>
                                 <td align="left">Option (index <code>3</code>)</td>
                             </tr>
                             <tr>
-                                <td align="center"><code>9</code></td>
+                                <td align="center"><code>10</code></td>
                                 <td align="center">answer</td>
                                 <td align="center"><code>int</code></td>
                                 <td align="left">The index (<code>0</code>/<code>1</code>/<code>2</code>/<code>3</code>) of the correct answer</td>
@@ -96,6 +95,19 @@ const SectionDatasetDetails = () => {
                         <p className=""></p>
                         For instance, such a question could be: <code>"Did a vehicle violate the traffic light?"</code>,
                         the four options provided could be <code>["", "No", "", "Yes"]</code> in random order.
+                    </div>
+                    <div className="m-1 alert alert-info">
+                        <span className="fst-italic fw-bold me-2">Note:</span>
+                        For Question Type, please use the following mapping:
+                        <p className=""></p>
+                        <code>{`Q_TYPE_MAP = {
+                            "U": "Basic Understanding",
+                            "A": "Attribution",
+                            "F": "Event Forecasting",
+                            "R": "Reverse Reasoning",
+                            "C": "Counterfactual Inference",
+                            "I": "Introspection",
+                            }`}</code>
                     </div>
                     <ul>
                         <li>View Sample JSONL Annotations: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/annotation_sample.jsonl">annotation_sample.jsonl</a></li>

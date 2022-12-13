@@ -1,6 +1,6 @@
 # [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/)
 
-A challenging Video Question Answering (VQA) Benchmark based on real-world traffic scenes.
+A challenging **Video Question Answering (VQA)** Benchmark based on **real-world** traffic scenes.
 
 **Updates:**
 
@@ -37,20 +37,9 @@ Our paper at **CVPR 2021**, _SUTD-TrafficQA: A Question Answering Benchmark and 
 
 ## Acknowledgment
 
-Contributors:
+Contributors: [**Lin Yutian**](https://github.com/Lynn-020809), [**Tran Nguyen Bao Long**](https://github.com/TNBL265), [**Liu Renhang**](https://github.com/Samillynn), [**Qiao Yingjie**](https://github.com/YingjieQiao), **Xun Long Ng**, **Koh Kai Ting**, **Christabel Dorothy**
 
--   [**Lin Yutian**](https://github.com/Lynn-020809)
--   [**Liu Renhang**](https://github.com/Samillynn)
--   [**Tran Nguyen Bao Long**](https://github.com/TNBL265)
--   [**Qiao Yingjie**](https://github.com/YingjieQiao)
--   [**Huang He**](https://github.com/MarkHershey)
--   **Xun Long Ng**
--   **Koh Kai Ting**
--   **Christabel Dorothy**
-
-Code Reference:
-
--   [thaolmk54 / hcrn-videoqa](https://github.com/thaolmk54/hcrn-videoqa)
+Code Reference: [thaolmk54 / hcrn-videoqa](https://github.com/thaolmk54/hcrn-videoqa)
 
 ## Contact
 

@@ -187,7 +187,7 @@ def generate_h5(model_resnext101, video_ids, outfile):
                     "resnext101_features", (video_total_num, F, D_101), dtype=np.float32
                 )
                 video_ids_dset = fd.create_dataset(
-                    "ids", shape=(video_total_num,), dtype=np.int
+                    "video_ids", shape=(video_total_num,), dtype=np.int
                 )
 
             i1 = i0 + 1
