@@ -110,8 +110,8 @@ const SectionDatasetDetails = () => {
                             }`}</code>
                     </div>
                     <ul>
-                        <li>View Sample JSONL Annotations: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/annotation_sample.jsonl">annotation_sample.jsonl</a></li>
-                        <li>View Example JSONL Reader: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/jsonl_reader.py">jsonl_reader.py</a></li>
+                        <li>View example JSONL Annotations: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/annotation_sample.jsonl">annotation_sample.jsonl</a></li>
+                        <li>View example JSONL Reader: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/jsonl_reader.py">jsonl_reader.py</a></li>
                     </ul>
 
 
