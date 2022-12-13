@@ -113,7 +113,7 @@ class VideoQADataLoader(DataLoader):
 
         print(f"Loading appearance feature from {kwargs['appearance_feat']}")
         with h5py.File(kwargs["appearance_feat"], "r") as app_features_file:
-            app_video_ids = app_features_file["ids"][()]
+            app_video_ids = app_features_file["video_ids"][()]
 
         app_feat_id_to_index = {str(_id): i for i, _id in enumerate(app_video_ids)}
         print(f"Loading motion feature from {kwargs['motion_feat']}")

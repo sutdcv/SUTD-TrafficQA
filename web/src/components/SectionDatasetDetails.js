@@ -3,7 +3,7 @@ import DownloadButton from "./DownloadButton"
 const SectionDatasetDetails = () => {
     return (
         <div>
-            <div className={"container my-4 py-3 px-3 jumbotron"} style={{minWidth: 400}}>
+            <div className={"container my-4 py-3 px-3 jumbotron"} style={{ minWidth: 400 }}>
                 <div className={"container d-flex flex-column align-items-start"}>
 
                     <h3 className="my-3">Annotations (Text QAs)</h3>
@@ -89,12 +89,12 @@ const SectionDatasetDetails = () => {
                         </tbody>
                     </table>
                     <div className="m-1 alert alert-info">
-                        <span className="fst-italic fw-bold me-2">Note:</span> 
-                        In the dataset, we provide 4 options for every question. 
+                        <span className="fst-italic fw-bold me-2">Note:</span>
+                        In the dataset, we provide 4 options for every question.
                         But for some Yes-or-No questions, we may use empty strings as padding in the annotation,
                         so that you could treat every question as a 4-class classification problem.
-                        <p className=""></p> 
-                        For instance, such a question could be: <code>"Did a vehicle violate the traffic light?"</code>, 
+                        <p className=""></p>
+                        For instance, such a question could be: <code>"Did a vehicle violate the traffic light?"</code>,
                         the four options provided could be <code>["", "No", "", "Yes"]</code> in random order.
                     </div>
                     <ul>
@@ -108,43 +108,43 @@ const SectionDatasetDetails = () => {
                     <p>Video Features are in HDF5 (<code>.h5</code>) format.</p>
                     <ol>
                         <li>Appearance Feature</li>
-                            <div className="my-1 mx-3 alert alert-secondary">
-                                <span className="fst-italic fw-bold me-2">Note:</span> 
-                                For appearance features, we uniformly sample 128 frames for each video and use the pre-trained networks to compute the appearance feature of each frame.
-                                <ul>
-                                    <li>View preprocessing source code: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/preprocess_video_appearance_example.py">preprocess_video_appearance_example.py</a></li>
-                                </ul>
-                            </div>
+                        <div className="my-1 mx-3 alert alert-secondary">
+                            <span className="fst-italic fw-bold me-2">Note:</span>
+                            For appearance features, we uniformly sample 128 frames for each video and use the pre-trained networks to compute the appearance feature of each frame.
                             <ul>
-                                <li>
-                                    <code>trafficqa_resnet18_feat.h5</code> (2.6 GB) extracted using <code> ResNet-18</code>.
-                                </li>
-                                <li>
-                                    <code>trafficqa_resnet101_feat.h5</code> (10.6 GB) extracted using <code> ResNet-101</code>.
-                                </li>
-                                <li>
-                                    <code>trafficqa_mobilenetv2_feat.h5</code> (6.6 GB) extracted using <code> MobileNetV2</code>.
-                                </li>
-                                
+                                <li>View preprocessing source code: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/preprocess_video_appearance_example.py">preprocess_video_appearance_example.py</a></li>
                             </ul>
+                        </div>
+                        <ul>
+                            <li>
+                                <code>trafficqa_resnet18_feat.h5</code> (2.6 GB) extracted using <code> ResNet-18</code>.
+                            </li>
+                            <li>
+                                <code>trafficqa_resnet101_feat.h5</code> (10.6 GB) extracted using <code> ResNet-101</code>.
+                            </li>
+                            <li>
+                                <code>trafficqa_mobilenetv2_feat.h5</code> (6.6 GB) extracted using <code> MobileNetV2</code>.
+                            </li>
+
+                        </ul>
 
                         <li>Motion Feature</li>
-                            <div className="my-1 mx-3 alert alert-secondary">
-                                <span className="fst-italic fw-bold me-2">Note:</span> 
-                                For motion features, we divide each video into 8 clips, and use the pre-trained ResNext-101 model to compute the motion features of each clip. 
-                                <ul>
-                                    <li>View preprocessing source code: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/preprocess_video_motion_example.py">preprocess_video_motion_example.py</a></li>
-                                </ul>
-                            </div>
+                        <div className="my-1 mx-3 alert alert-secondary">
+                            <span className="fst-italic fw-bold me-2">Note:</span>
+                            For motion features, we divide each video into 8 clips, and use the pre-trained ResNext-101 model to compute the motion features of each clip.
                             <ul>
-                                <li>
-                                    <code>trafficqa_motion_feat.h5</code> (668.2 MB) extracted using <code> ResNeXt101</code>.
-                                </li>
+                                <li>View preprocessing source code: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/preprocess_video_motion_example.py">preprocess_video_motion_example.py</a></li>
                             </ul>
+                        </div>
+                        <ul>
+                            <li>
+                                <code>trafficqa_motion_feat.h5</code> (668.2 MB) extracted using <code> ResNeXt101</code>.
+                            </li>
+                        </ul>
                     </ol>
 
                     <div className="my-1 alert alert-info">
-                        <span className="fst-italic fw-bold me-2">Note:</span> 
+                        <span className="fst-italic fw-bold me-2">Note:</span>
                         To use the features stored in HDF5 file:
                         <ul>
                             <li>
@@ -154,7 +154,7 @@ const SectionDatasetDetails = () => {
                                 Use the top-level keys to access the list of features: <code>"resnet18_features"</code>, <code>"resnet101_features"</code>, <code>"mobilenetv2_features"</code>, and <code>"resnext101_features"</code>.
                             </li>
                             <li>
-                                Use the top-level key <code>"ids"</code> to access a list of corresponding <code>vid_ids</code> in the exact same order as the list of features.
+                                Use the top-level key <code>"video_ids"</code> or <code>"ids"</code> to access a list of corresponding <code>vid_ids</code> in the exact same order as the list of features.
                             </li>
                             <li>
                                 View Example Data-loader: <a href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/examples/dataloader_example.py">dataloader_example.py</a>
@@ -173,10 +173,10 @@ const SectionDatasetDetails = () => {
 
                     <h3 className="my-3">Download Dataset</h3>
                     <p>Our dataset is completely open-source, you just need to fill in the request form and agree to our terms and conditions, download it now!</p>
-                    <DownloadButton text={"Request Download"} href={"#download"} disabled={false} openNewTab={false}/>
+                    <DownloadButton text={"Request Download"} href={"#download"} disabled={false} openNewTab={false} />
 
                 </div>
-                
+
             </div>
         </div>
     )

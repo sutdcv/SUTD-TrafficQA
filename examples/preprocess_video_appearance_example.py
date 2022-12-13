@@ -227,7 +227,7 @@ def generate_h5(model_res101, model_res18, model_mobilev2, video_ids, outfile):
                     dtype=np.float32,
                 )
                 video_ids_dset = fd.create_dataset(
-                    "ids",
+                    "video_ids",
                     shape=(video_total_num,),
                     dtype=np.int,
                 )
