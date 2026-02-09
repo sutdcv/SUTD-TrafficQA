@@ -1,8 +1,0 @@
-@InProceedings{Xu_2021_CVPR,
-    author    = {Xu, Li and Huang, He and Liu, Jun},
-    title     = {SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning Over Traffic Events},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2021},
-    pages     = {9878-9888}
-}

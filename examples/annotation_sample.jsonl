@@ -1,8 +1,0 @@
-["record_id", "vid_id", "vid_filename", "perspective", "q_body", "q_type", "option0", "option1", "option2", "option3", "answer"]
-[9875, 20485, "b_1ZV411k741_clip_023.mp4", 1, "What type of accident happened in the video?", "A", "Head-on collision", "No accident happened.", "The vehicle collided with road infrastructure.", "Others", 1]
-[49587, 27793, "b_1Ab411J7Hk_clip_005.mp4", 3, "How will the vehicle(s) crash?", "F", "The vehicle collided with road infrastructure.", "Side-collision", "Head-on collision", "No accident will happen", 3]
-[15839, 30403, "b_1TJ411s7yy_clip_053.mp4", 3, "What is the condition of the car after the accident?", "U", "Badly damaged", "Good", "", "A few scratches or dents", 3]
-[49153, 6577, "b_1bt411z7Ps_clip_016.mp4", 3, "Which might be the reason for this accident?", "U", "There is no accident in this video", "Improper lane change", "Fatigue driving", "Not paying attention to their surroundings or road safety", 3]
-[30004, 17576, "b_12x411D72J_part2_clip_003.mp4", 1, "What is the surrounding environment like in the video?", "U", "Trees and greeneries", "Mountainous", "Tunnel", "Others", 0]
-[51256, 3088, "b_1p4411U7m1_clip_009.mp4", 3, "Would the accident still happen if the roads have better marking?", "C", "Yes, the involved vehicles would still violate traffic rules", "No", "", "", 0]
-[59404, 756, "b_1kx41147ee_part2_clip_001.mp4", 3, "Did the accident happen when any of the involved vehicles making a turn?", "A", "No", "No accident", "Yes", "", 1]
