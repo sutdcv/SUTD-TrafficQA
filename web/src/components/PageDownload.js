@@ -30,8 +30,8 @@ const PageDownload = () => {
                 <p className="text-center">By downloading the dataset, you agree to the terms and conditions above.</p>
 
                 <div className="container">
-                    <a href="https://bit.ly/SUTDTrafficQA-Google" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">Google Drive Link</a>
-                    <a href="https://bit.ly/SUTDTrafficQA-OneDrive" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">MS OneDrive Link</a>
+                    {/* <a href="https://bit.ly/SUTDTrafficQA-Google" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">Google Drive Link</a> */}
+                    <a href="https://sutdapac-my.sharepoint.com/:f:/g/personal/he_huang_mymail_sutd_edu_sg/IgBK5nN1s4ASQJM2WlQ-U-O6AY0eM_J7YutkqN1heSVvzPM" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">MS OneDrive Link</a>
                     <a href="https://bit.ly/SUTDTrafficQA-zenodo" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">Zenodo Link</a>
                 </div>
             </div>
