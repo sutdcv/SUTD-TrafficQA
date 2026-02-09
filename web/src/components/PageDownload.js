@@ -32,6 +32,7 @@ const PageDownload = () => {
                 <div className="container">
                     <a href="https://bit.ly/SUTDTrafficQA-Google" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">Google Drive Link</a>
                     <a href="https://bit.ly/SUTDTrafficQA-OneDrive" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">MS OneDrive Link</a>
+                    <a href="https://bit.ly/SUTDTrafficQA-zenodo" className="button btn btn-outline-primary mt-3 mx-1" target="_blank" rel="noopener noreferrer">Zenodo Link</a>
                 </div>
             </div>
 
